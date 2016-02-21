@@ -7,9 +7,7 @@ import junit.framework.TestSuite;
 /**
  * Unit test for simple App.
  */
-public class AppTest 
-    extends TestCase
-{
+public class AppTest extends TestCase {
     /**
      * Create the test case
      *
@@ -29,10 +27,14 @@ public class AppTest
     }
 
     /**
-     * Rigourous Test :-)
      */
-    public void testApp()
-    {
-        assertTrue( true );
+    public void testMax() {
+        assertEquals(5, net.marstone.App.max(5, 5) );
     }
+
+   public void testMax2() {
+        assertEquals(5, net.marstone.App.max(3, 5) );
+    }
+
+
 }

@@ -11,7 +11,8 @@ public class App  {
 	}
 
 	public static int max(int x, int y) {
-		if(x > y) {
+		// the BUG version, should be '>'
+		if(x < y) {
 			return x;
 		} else {
 			return y;
