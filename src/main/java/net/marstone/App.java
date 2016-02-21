@@ -11,8 +11,8 @@ public class App  {
 	}
 
 	public static int max(int x, int y) {
-		// the BUG version, should be '>'
-		if(x < y) {
+		// the FIXed version, should be '>'
+		if(x > y) {
 			return x;
 		} else {
 			return y;
